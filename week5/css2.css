@@ -1,0 +1,20 @@
+body{
+    background-color: dimgray;
+}
+#boll{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+#boll img{
+    max-height: 500px;
+}
+#mal{
+    border-top: solid black;
+    border-bottom: solid black;
+}
+#mal img{
+    margin: 15px;
+    width: 200px;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue;
+}
+#students{
+    border: solid;
+}
+td{
+    width: 200px;
+    height: 60px;
+    font-size: 2em;
+    border: solid;
+}
+.facu{
+    font-weight: bold;
+}
+.wrong{
+    border: solid red;
+}
+input{
+    width: 290px;
+    height: 30px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+select{
+}
+#container{
+    width: 600px;
+}
+option{
+    font-size: 20px;
+}
