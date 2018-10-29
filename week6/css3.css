@@ -1,0 +1,67 @@
+body{
+    background-color: lightgray;
+}
+#cars{
+    display:flex;
+    flex-wrap:wrap;
+}
+#card1{
+    background-color: darkgray;
+    margin: 10px;
+    position:relative;
+    display:flex;
+}
+#card2{
+    background-color: darkgray;
+    margin: 10px;
+    position:relative;
+    display:flex;
+}
+#card3{
+    background-color: darkgray;
+    margin: 10px;
+    position:relative;
+    display:flex;
+}
+#card4{
+     background-color: darkgray;
+     margin: 10px;
+     position:relative;
+     display:flex;
+ }
+#basket4{
+    background-color: lightgray;
+    position:absolute;
+    right:5px;
+    top:5px;
+    z-index:9;
+}
+#basket1{
+    background-color: lightgray;
+    position:absolute;
+    right:5px;
+    top:5px;
+    z-index:9;
+}
+#basket2{
+    background-color: lightgray;
+    position:absolute;
+    right:5px;
+    top:5px;
+    z-index:9;
+}
+#basket3{
+    background-color: lightgray;
+    position:absolute;
+    right:5px;
+    top:5px;
+    z-index:9;
+}
+#insideBasket{
+    font-size: 2em;
+    margin-bottom: 10px;
+    border: black;
+    border-bottom: solid;
+    border-top: solid;
+    text-align:center;
+}
