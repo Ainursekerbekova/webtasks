@@ -1,0 +1,43 @@
+<html >
+<head>
+    <title>Task3</title>
+    <script src="js3.js" defer></script>
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        #cards .card{
+            margin-bottom: 5px;
+            display:flex;
+            width:300px;
+        }
+        #cards .card .title{
+            flex-grow: 1;
+        }
+        #cards .card .price{
+            font-weight: bold;
+            padding-right: 20px;
+        }
+        #loading{
+            display: none;
+        }
+        #cards{
+            width:300px;
+            height:200px;
+            border:solid blue;
+        }
+    </style>
+
+</head>
+<body>
+<button id="first">Load</button>
+<div>
+    <button id="sortByMaker">Sort by maker</button>
+    <button id="sortByPrice">Sort by price</button>
+</div>
+<div id="cards">
+    <img width="300px" height="200px" id="loading" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif"/>
+</div>
+</body>
+
+</html>
