@@ -6,7 +6,7 @@
 
 if (isset($_GET['name'])){
     setcookie("username", $_GET['name']);
-    echo "Hello,".$_COOKIE["name"];
+    echo "Hello, ".$_GET["name"]." !";
 }
 
 
